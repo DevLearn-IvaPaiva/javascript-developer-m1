@@ -16,6 +16,16 @@ const nota = gets();
 if (nota < 5) {
     console.log('reprovado')
 } if (nota >= 5 && nota < 7) {
+    console.log('recupeção')
+} else {
+    console.log('aprovado')
+}
+
+const nota = gets();
+
+if (nota < 5) {
+    console.log('reprovado')
+} if (nota >= 5 && nota < 7) {
     console.log('recuperação')
 } else {
     console.log('aprovado')
