@@ -20,3 +20,13 @@
 //             2050.00
 
 const { gets, print } = require('./funcoes-auxiliares-ex3');
+
+const salarioBruto = parseFloat(gets());
+const benefícios = parseFloat(gets());
+
+/*
+let 
+
+
+
+*/

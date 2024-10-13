@@ -10,3 +10,15 @@
 //             Recuperação
 
 const { gets, print } = require('./funcoes-auxiliares-ex1');
+
+const nota = gets();
+
+if (nota < 5) {
+    console.log('reprovado')
+} if (nota >= 5 && nota < 7) {
+    console.log('recuperação')
+} else {
+    console.log('aprovado')
+}
+
+print(nota);
